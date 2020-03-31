@@ -18,16 +18,6 @@ function keepGoing(array, changeValue, skipValue) {
   return array
 }
 
-// function findBy(array, findFn) {
-//   for (var i=0; i<array.length; i++) {
-//     var findFnValue = findFn();
-//     if (array[i] = findFnValue) {
-//     return array[i];
-//   }
-// }
-// return null
-// }
-
 function findBy(array, findFn) {
   for (var i = 0; i < array.length; i++) {
     if (findFn(array[i])) {
